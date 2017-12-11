@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  SnappyContacts
 //
-//  Created by Dari Hart on 12/11/17.
+//  Created by Michael G. Wallin on 12/11/17.
 //  Copyright © 2017 Michael G. Wallin. All rights reserved.
 //
 

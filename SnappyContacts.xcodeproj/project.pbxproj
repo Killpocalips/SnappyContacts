@@ -15,6 +15,7 @@
 		43873D8F1FDED5DC000CB7F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43873D8D1FDED5DC000CB7F5 /* LaunchScreen.storyboard */; };
 		43873D9A1FDED5DC000CB7F5 /* SnappyContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43873D991FDED5DC000CB7F5 /* SnappyContactsTests.swift */; };
 		43873DA51FDED5DC000CB7F5 /* SnappyContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43873DA41FDED5DC000CB7F5 /* SnappyContactsUITests.swift */; };
+		43873DB41FDEEF93000CB7F5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43873DB31FDEEF93000CB7F5 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		43873DA01FDED5DC000CB7F5 /* SnappyContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnappyContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43873DA41FDED5DC000CB7F5 /* SnappyContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappyContactsUITests.swift; sourceTree = "<group>"; };
 		43873DA61FDED5DC000CB7F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43873DB31FDEEF93000CB7F5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43873DB41FDEEF93000CB7F5 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				43873D981FDED5DC000CB7F5 /* SnappyContactsTests */,
 				43873DA31FDED5DC000CB7F5 /* SnappyContactsUITests */,
 				43873D7F1FDED5DC000CB7F5 /* Products */,
+				43873DB21FDEEF8F000CB7F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				43873DA61FDED5DC000CB7F5 /* Info.plist */,
 			);
 			path = SnappyContactsUITests;
+			sourceTree = "<group>";
+		};
+		43873DB21FDEEF8F000CB7F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43873DB31FDEEF93000CB7F5 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
