@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43873D821FDED5DC000CB7F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43873D811FDED5DC000CB7F5 /* AppDelegate.swift */; };
+		43873D841FDED5DC000CB7F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43873D831FDED5DC000CB7F5 /* ViewController.swift */; };
+		43873D871FDED5DC000CB7F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43873D851FDED5DC000CB7F5 /* Main.storyboard */; };
+		43873D8A1FDED5DC000CB7F5 /* SnappyContacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43873D881FDED5DC000CB7F5 /* SnappyContacts.xcdatamodeld */; };
+		43873D8C1FDED5DC000CB7F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43873D8B1FDED5DC000CB7F5 /* Assets.xcassets */; };
+		43873D8F1FDED5DC000CB7F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43873D8D1FDED5DC000CB7F5 /* LaunchScreen.storyboard */; };
+		43873D9A1FDED5DC000CB7F5 /* SnappyContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43873D991FDED5DC000CB7F5 /* SnappyContactsTests.swift */; };
+		43873DA51FDED5DC000CB7F5 /* SnappyContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43873DA41FDED5DC000CB7F5 /* SnappyContactsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43873D961FDED5DC000CB7F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43873D761FDED5DB000CB7F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43873D7D1FDED5DB000CB7F5;
+			remoteInfo = SnappyContacts;
+		};
+		43873DA11FDED5DC000CB7F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43873D761FDED5DB000CB7F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43873D7D1FDED5DB000CB7F5;
+			remoteInfo = SnappyContacts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43873D7E1FDED5DC000CB7F5 /* SnappyContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnappyContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43873D811FDED5DC000CB7F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43873D831FDED5DC000CB7F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43873D861FDED5DC000CB7F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43873D891FDED5DC000CB7F5 /* SnappyContacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SnappyContacts.xcdatamodel; sourceTree = "<group>"; };
+		43873D8B1FDED5DC000CB7F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43873D8E1FDED5DC000CB7F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43873D901FDED5DC000CB7F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43873D951FDED5DC000CB7F5 /* SnappyContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnappyContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43873D991FDED5DC000CB7F5 /* SnappyContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappyContactsTests.swift; sourceTree = "<group>"; };
+		43873D9B1FDED5DC000CB7F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43873DA01FDED5DC000CB7F5 /* SnappyContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnappyContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43873DA41FDED5DC000CB7F5 /* SnappyContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappyContactsUITests.swift; sourceTree = "<group>"; };
+		43873DA61FDED5DC000CB7F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43873D7B1FDED5DB000CB7F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43873D921FDED5DC000CB7F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43873D9D1FDED5DC000CB7F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43873D751FDED5DB000CB7F5 = {
+			isa = PBXGroup;
+			children = (
+				43873D801FDED5DC000CB7F5 /* SnappyContacts */,
+				43873D981FDED5DC000CB7F5 /* SnappyContactsTests */,
+				43873DA31FDED5DC000CB7F5 /* SnappyContactsUITests */,
+				43873D7F1FDED5DC000CB7F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43873D7F1FDED5DC000CB7F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43873D7E1FDED5DC000CB7F5 /* SnappyContacts.app */,
+				43873D951FDED5DC000CB7F5 /* SnappyContactsTests.xctest */,
+				43873DA01FDED5DC000CB7F5 /* SnappyContactsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43873D801FDED5DC000CB7F5 /* SnappyContacts */ = {
+			isa = PBXGroup;
+			children = (
+				43873D811FDED5DC000CB7F5 /* AppDelegate.swift */,
+				43873D831FDED5DC000CB7F5 /* ViewController.swift */,
+				43873D851FDED5DC000CB7F5 /* Main.storyboard */,
+				43873D8B1FDED5DC000CB7F5 /* Assets.xcassets */,
+				43873D8D1FDED5DC000CB7F5 /* LaunchScreen.storyboard */,
+				43873D901FDED5DC000CB7F5 /* Info.plist */,
+				43873D881FDED5DC000CB7F5 /* SnappyContacts.xcdatamodeld */,
+			);
+			path = SnappyContacts;
+			sourceTree = "<group>";
+		};
+		43873D981FDED5DC000CB7F5 /* SnappyContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				43873D991FDED5DC000CB7F5 /* SnappyContactsTests.swift */,
+				43873D9B1FDED5DC000CB7F5 /* Info.plist */,
+			);
+			path = SnappyContactsTests;
+			sourceTree = "<group>";
+		};
+		43873DA31FDED5DC000CB7F5 /* SnappyContactsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43873DA41FDED5DC000CB7F5 /* SnappyContactsUITests.swift */,
+				43873DA61FDED5DC000CB7F5 /* Info.plist */,
+			);
+			path = SnappyContactsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43873D7D1FDED5DB000CB7F5 /* SnappyContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43873DA91FDED5DC000CB7F5 /* Build configuration list for PBXNativeTarget "SnappyContacts" */;
+			buildPhases = (
+				43873D7A1FDED5DB000CB7F5 /* Sources */,
+				43873D7B1FDED5DB000CB7F5 /* Frameworks */,
+				43873D7C1FDED5DB000CB7F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnappyContacts;
+			productName = SnappyContacts;
+			productReference = 43873D7E1FDED5DC000CB7F5 /* SnappyContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43873D941FDED5DC000CB7F5 /* SnappyContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43873DAC1FDED5DC000CB7F5 /* Build configuration list for PBXNativeTarget "SnappyContactsTests" */;
+			buildPhases = (
+				43873D911FDED5DC000CB7F5 /* Sources */,
+				43873D921FDED5DC000CB7F5 /* Frameworks */,
+				43873D931FDED5DC000CB7F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43873D971FDED5DC000CB7F5 /* PBXTargetDependency */,
+			);
+			name = SnappyContactsTests;
+			productName = SnappyContactsTests;
+			productReference = 43873D951FDED5DC000CB7F5 /* SnappyContactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43873D9F1FDED5DC000CB7F5 /* SnappyContactsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43873DAF1FDED5DC000CB7F5 /* Build configuration list for PBXNativeTarget "SnappyContactsUITests" */;
+			buildPhases = (
+				43873D9C1FDED5DC000CB7F5 /* Sources */,
+				43873D9D1FDED5DC000CB7F5 /* Frameworks */,
+				43873D9E1FDED5DC000CB7F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43873DA21FDED5DC000CB7F5 /* PBXTargetDependency */,
+			);
+			name = SnappyContactsUITests;
+			productName = SnappyContactsUITests;
+			productReference = 43873DA01FDED5DC000CB7F5 /* SnappyContactsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43873D761FDED5DB000CB7F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Michael G. Wallin";
+				TargetAttributes = {
+					43873D7D1FDED5DB000CB7F5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					43873D941FDED5DC000CB7F5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43873D7D1FDED5DB000CB7F5;
+					};
+					43873D9F1FDED5DC000CB7F5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43873D7D1FDED5DB000CB7F5;
+					};
+				};
+			};
+			buildConfigurationList = 43873D791FDED5DB000CB7F5 /* Build configuration list for PBXProject "SnappyContacts" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43873D751FDED5DB000CB7F5;
+			productRefGroup = 43873D7F1FDED5DC000CB7F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43873D7D1FDED5DB000CB7F5 /* SnappyContacts */,
+				43873D941FDED5DC000CB7F5 /* SnappyContactsTests */,
+				43873D9F1FDED5DC000CB7F5 /* SnappyContactsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43873D7C1FDED5DB000CB7F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43873D8F1FDED5DC000CB7F5 /* LaunchScreen.storyboard in Resources */,
+				43873D8C1FDED5DC000CB7F5 /* Assets.xcassets in Resources */,
+				43873D871FDED5DC000CB7F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43873D931FDED5DC000CB7F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43873D9E1FDED5DC000CB7F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43873D7A1FDED5DB000CB7F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43873D841FDED5DC000CB7F5 /* ViewController.swift in Sources */,
+				43873D8A1FDED5DC000CB7F5 /* SnappyContacts.xcdatamodeld in Sources */,
+				43873D821FDED5DC000CB7F5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43873D911FDED5DC000CB7F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43873D9A1FDED5DC000CB7F5 /* SnappyContactsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43873D9C1FDED5DC000CB7F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43873DA51FDED5DC000CB7F5 /* SnappyContactsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43873D971FDED5DC000CB7F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43873D7D1FDED5DB000CB7F5 /* SnappyContacts */;
+			targetProxy = 43873D961FDED5DC000CB7F5 /* PBXContainerItemProxy */;
+		};
+		43873DA21FDED5DC000CB7F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43873D7D1FDED5DB000CB7F5 /* SnappyContacts */;
+			targetProxy = 43873DA11FDED5DC000CB7F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43873D851FDED5DC000CB7F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43873D861FDED5DC000CB7F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43873D8D1FDED5DC000CB7F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43873D8E1FDED5DC000CB7F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43873DA71FDED5DC000CB7F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43873DA81FDED5DC000CB7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43873DAA1FDED5DC000CB7F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnappyContacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s0454719-student.rockvalleycollege.edu.SnappyContacts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43873DAB1FDED5DC000CB7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnappyContacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s0454719-student.rockvalleycollege.edu.SnappyContacts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43873DAD1FDED5DC000CB7F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnappyContactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s0454719-student.rockvalleycollege.edu.SnappyContactsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnappyContacts.app/SnappyContacts";
+			};
+			name = Debug;
+		};
+		43873DAE1FDED5DC000CB7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnappyContactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s0454719-student.rockvalleycollege.edu.SnappyContactsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnappyContacts.app/SnappyContacts";
+			};
+			name = Release;
+		};
+		43873DB01FDED5DC000CB7F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnappyContactsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s0454719-student.rockvalleycollege.edu.SnappyContactsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnappyContacts;
+			};
+			name = Debug;
+		};
+		43873DB11FDED5DC000CB7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnappyContactsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s0454719-student.rockvalleycollege.edu.SnappyContactsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnappyContacts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43873D791FDED5DB000CB7F5 /* Build configuration list for PBXProject "SnappyContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43873DA71FDED5DC000CB7F5 /* Debug */,
+				43873DA81FDED5DC000CB7F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43873DA91FDED5DC000CB7F5 /* Build configuration list for PBXNativeTarget "SnappyContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43873DAA1FDED5DC000CB7F5 /* Debug */,
+				43873DAB1FDED5DC000CB7F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43873DAC1FDED5DC000CB7F5 /* Build configuration list for PBXNativeTarget "SnappyContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43873DAD1FDED5DC000CB7F5 /* Debug */,
+				43873DAE1FDED5DC000CB7F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43873DAF1FDED5DC000CB7F5 /* Build configuration list for PBXNativeTarget "SnappyContactsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43873DB01FDED5DC000CB7F5 /* Debug */,
+				43873DB11FDED5DC000CB7F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43873D881FDED5DC000CB7F5 /* SnappyContacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43873D891FDED5DC000CB7F5 /* SnappyContacts.xcdatamodel */,
+			);
+			currentVersion = 43873D891FDED5DC000CB7F5 /* SnappyContacts.xcdatamodel */;
+			path = SnappyContacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 43873D761FDED5DB000CB7F5 /* Project object */;
+}
